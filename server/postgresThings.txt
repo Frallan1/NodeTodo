@@ -1,0 +1,9 @@
+username = doadmin
+password = gwf7gnl8vqw1r2qs
+host = private-db-postgresql-fra1-76505-do-user-7871475-0.a.db.ondigitalocean.com
+port = 25060
+database = defaultdb
+sslmode = require
+
+
+PGPASSWORD=gwf7gnl8vqw1r2qs pg_restore -U doadmin -h db-postgresql-fra1-76505-do-user-7871475-0.a.db.ondigitalocean.com -p 25060 -d defaultdb 
